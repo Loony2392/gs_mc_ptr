@@ -1,1 +1,2 @@
-# gs_mc_ptr
+# gs_mc_lobby
+LOONY-ARCADE Minecraft Lobby Server
