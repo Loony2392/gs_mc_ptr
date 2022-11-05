@@ -3,6 +3,8 @@ services:
   mc:
     image: itzg/minecraft-server
     container_name: gs_mc_ptr
+    stdin_open: true
+    tty: true
     environment:
       EULA: true
       ENABLE_RCON: true
@@ -45,12 +47,10 @@ services:
       ENFORCE_WHITELIST: false
       ENABLE_WHITELIST: false
       SIMULATION_DISTANCE:  20
-      stdin_open: true
-      tty: true
       
     ports:
       - 29999:25565
     volumes:
       - /mnt/user/appdata/gs_mc_ptr:/data
 
-    restart: unless-stopped
+   restart: unless-stopped
