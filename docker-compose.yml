@@ -36,7 +36,7 @@ services:
       PVP:  false
       RESOURCE_PACK: ""
       LEVEL:  "ptr"
-      ONLINE_MODE: true
+      ONLINE_MODE: false
       ALLOW_FLIGHT: false
       PLAYER_IDLE_TIMEOUT: 5
       SYNC_CHUNK_WRITES: true
