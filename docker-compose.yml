@@ -15,8 +15,8 @@ services:
       SERVER_NAME: "LOONY-ARCADE PTR"
       TZ: "Europe/Berlin"
       SERVER_PORT: 25565
-      MAX_PLAYERS: 50
-      MEMORY: 4G
+      MAX_PLAYERS: 3
+      MEMORY: 2G
       CONSOLE: true
       OVERRIDE_ICON: true
       OPS_FILE: ""
@@ -36,7 +36,7 @@ services:
       SPAWN_NPCS: true
       SPAWN_PROTECTION: 9999
       VIEW_DISTANCE:  15
-      MODE: survival
+      MODE: creative
       PVP:  false
       RESOURCE_PACK: ""
       LEVEL:  "ptr"
