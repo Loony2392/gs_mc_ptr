@@ -48,6 +48,7 @@ services:
       ENFORCE_WHITELIST: false
       ENABLE_WHITELIST: false
       SIMULATION_DISTANCE:  20
+      LEVEL-TYPE: FLAT
       
     ports:
       - 29999:25565
