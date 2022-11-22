@@ -40,8 +40,8 @@ services:
       PVP:  false
       RESOURCE_PACK: ""
       LEVEL:  "ptr"
-      ONLINE_MODE: false
-      ALLOW_FLIGHT: false
+      ONLINE_MODE: true
+      ALLOW_FLIGHT: true
       PLAYER_IDLE_TIMEOUT: 5
       SYNC_CHUNK_WRITES: true
       NETWORK_COMPRESSION_THRESHOLD: 512
